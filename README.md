@@ -1,2 +1,3 @@
 # python-projects
-Python basic to intermediate problems and solutions.
+Newbies to python can start practicing certain components of python like core python, functions and data processing libraries.
+Based on usecase this material can be helpful.
