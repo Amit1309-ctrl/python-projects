@@ -22,5 +22,19 @@ output: 0
 List2 = [10, 20, 14] 
 print(len(List2)) 
 output: 3
+###############################
+# Python program to take space 
+# separated input as a string 
+# split and store it to a list 
+# and print the string list 
 
-###########
+# input the list as string 
+string = input("Enter elements (Space-Separated): ") 
+
+# split the strings and store it to a list 
+lst = string.split() 
+print('The list is:', lst) # printing the list 
+output: 
+Enter elements: LEARNING LISTS IS FUN
+The list is: ['LEARNING', 'LISTS', 'IS', 'FUN']
+###################################################
