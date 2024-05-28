@@ -8,8 +8,19 @@ Reverse a list in python using for loop:
 list = [4, 5, 6, 7, 8, 9]
 
 ###########
-
 Reverse a string in Python :
 string = "Google Analytics"
+
+###########
+getting size of python list:
+# Creating a List 
+List1 = [] 
+print(len(List1)) 
+output: 0
+
+# Creating a List of numbers 
+List2 = [10, 20, 14] 
+print(len(List2)) 
+output: 3
 
 ###########
