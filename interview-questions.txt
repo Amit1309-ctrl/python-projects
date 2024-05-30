@@ -1,9 +1,11 @@
 ############
-input="there is a fox running, FOX IS A CLEVER Animal"
 Question:
-Remove word "fox" from the above input so the output is: "there is a running,  IS A CLEVER Animal"
+Remove word "fox" from the below input so the output is: "there is a running,  IS A CLEVER Animal"
+
+input="there is a fox running, FOX IS A CLEVER Animal"
 
 ###########
+
 Reverse a list in python using for loop:
 list = [4, 5, 6, 7, 8, 9]
 
