@@ -66,4 +66,21 @@ res = [i for row in [[1,3,4,"python"], [4,5],
 print(res)
 ##################################################
 
+Python programme to interchange first and last element in the list:
 
+1. using recursion:
+
+def swaplist(list1):
+    size = len(list1)
+
+    first_ele = list1[0]
+    list1[0] = list1[size - 1]
+    list1[size - 1] = first_ele
+
+    return list1
+
+list1 = [12,34,56,7,8]
+
+print(swaplist(list1))
+
+################################################
