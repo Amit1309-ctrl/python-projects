@@ -4,16 +4,16 @@ Remove word "fox" from the below input so the output is: "there is a running,  I
 
 input="there is a fox running, FOX IS A CLEVER Animal"
 
-###########
+##############################################
 
 Reverse a list in python using for loop:
 list = [4, 5, 6, 7, 8, 9]
 
-###########
+##############################################
 Reverse a string in Python :
 string = "Google Analytics"
 
-###########
+################################################
 getting size of python list:
 # Creating a List 
 List1 = [] 
@@ -24,7 +24,7 @@ output: 0
 List2 = [10, 20, 14] 
 print(len(List2)) 
 output: 3
-###############################
+######################################################
 # Python program to take space 
 # separated input as a string 
 # split and store it to a list 
@@ -39,7 +39,7 @@ print('The list is:', lst) # printing the list
 output: 
 Enter elements: LEARNING LISTS IS FUN
 The list is: ['LEARNING', 'LISTS', 'IS', 'FUN']
-###################################################
+########################################################
 Flatten list of individual elements:
 
 1. using flatten() method:
@@ -64,7 +64,7 @@ output:
 res = [i for row in [[1,3,4,"python"], [4,5], 
 					[6,"best"]] for i in row]
 print(res)
-##################################################
+#####################################################################
 
 Python programme to interchange first and last element in the list:
 
@@ -83,4 +83,4 @@ list1 = [12,34,56,7,8]
 
 print(swaplist(list1))
 
-################################################
+####################################################################
