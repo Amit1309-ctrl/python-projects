@@ -57,4 +57,22 @@ class Solution:
             for y in range(x+1,len(nums)):
                 if nums[x] + nums[y] == target:
                     return [x,y]
+===============================================================
+APPROACH: BRUTE FORCE + SORTING
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        new_nums = nums.copy()
+        new_nums.sort()
+        
+        i = 0
+        
+        j = len(new_nums) - 1
+        
+        while (i < j):
+            if (new_nums[i] + new_nums[j] == target):
+                return [nums.index(new_nums[i]),nums.index(new_nums[j])]
+            elif (new_nums[i] + new_nums[j] < target):
+                i = i+1
+            else:
+                j = j-1
 ###############################################################
