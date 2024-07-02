@@ -70,6 +70,8 @@ class Solution:
         
         while (i < j):
             if (new_nums[i] + new_nums[j] == target):
+                if new_nums[i] == new_nums[j]:
+                    return [nums.index(new_nums[i]),nums.index(new_nums[j],nums.index(new_nums[i])+1)]
                 return [nums.index(new_nums[i]),nums.index(new_nums[j])]
             elif (new_nums[i] + new_nums[j] < target):
                 i = i+1
